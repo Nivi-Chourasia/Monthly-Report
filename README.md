@@ -21,7 +21,7 @@ To help build the Monthly Report Presentation.
 
 
 ### Data Manipulation
-##### Platform Data2: (changing 'Method')
+#### Platform Data2: (changing 'Method')
 1. For all the inventory purchases, anything that is not a sole source but is below 50K as an "Fairmarkit Quote" (except for     DMartinos)
 2. EWELSH, JDELLALA, TDIONNE : Not Fedral + filter out SWC -> should be marked as Commbuys Market
 3. KLOVE, PHONG, TSULLIVAN1: all Sole Sources - OEM below 50K as a Fairmakit Quote.
@@ -42,12 +42,12 @@ To help build the Monthly Report Presentation.
 |4000091497  |
 
 
-##### PO Amounts: (changing 'Bid Type')
+#### PO Amounts: (changing 'Bid Type')
 1. All MBTAI below 50K, From 'IFB' to 'Request for Quote' (except (2000108600/01)
 2. All unspecifed to 'Request for Quote' (except 2000107343,4000092098/214/215)
 
-##### Buyer Counts and Spending 
-###### Sheet Name: Full Sheet
+#### Buyer Counts and Spending 
+##### Sheet Name: Full Sheet
 For Non-Inventory -> Qor -> Columns H to P: Refer to the sheets 'QOR' and 'QOR This Month'
 
 
