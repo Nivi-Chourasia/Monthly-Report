@@ -27,10 +27,10 @@ Platform Data2: (changing the method)
 3. KLOVE, PHONG, TSULLIVAN1: all Sole Sources - OEM below 50K as a Fairmakit Quote.
 4. Convert these to Commbuys Market
    
-9000006897
-9000006795
-9000006794
-9000006763
+
+
+
+
 4000091212
 4000091025
 4000091023
@@ -39,12 +39,12 @@ Platform Data2: (changing the method)
 4000091496
 4000091497
   
-  |   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-
+  | PO. No.  |  
+|---|
+|9000006897  | 
+|9000006795  | 
+|9000006794  | 
+|9000006763  |
 
 
 ### All MBTA spend in FY19(YTD) :Slide 3
