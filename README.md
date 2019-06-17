@@ -6,21 +6,21 @@ June 28, 2019.
 
 To help build the Monthly Report Presentation. 
 
-#### Tableau Books Requirement
+### Tableau Books Requirement
 Amounts_August_Nivi.twb
 Platform_Data.twb
 Spend.twb
 Threshold.twb
 
 
-#### Data Requirements (From the Script)
+### Data Requirements (From the Script)
 PO Amounts
 Platform Data2
 SB SS Data
 Buyer Counts and Spending Sheet
 
 
-#### Data Manipulation
+### Data Manipulation
 ##### Platform Data2: (changing 'Method')
 1. For all the inventory purchases, anything that is not a sole source but is below 50K as an "Fairmarkit Quote" (except for     DMartinos)
 2. EWELSH, JDELLALA, TDIONNE : Not Fedral + filter out SWC -> should be marked as Commbuys Market
@@ -48,7 +48,7 @@ Buyer Counts and Spending Sheet
 
 
 
-### All MBTA spend in FY19(YTD):
+### Presentation Slides:
 |     Slide     |     Tableau Book    | Sheet/ Dashboard |   Excel Sheet   |
 | ------------- |:-------------------:| ----------------:|----------------:|
 |       3       |      Spend.twb      |    Dashboard 1   |   PO Amounts    |
