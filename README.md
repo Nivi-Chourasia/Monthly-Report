@@ -28,7 +28,7 @@ To help build the Monthly Report Presentation.
 4. Convert these to Commbuys Market
      
   | PO. No.  |  
-|---|
+|:---:|
 |9000006897  | 
 |9000006795  | 
 |9000006794  | 
@@ -50,7 +50,7 @@ To help build the Monthly Report Presentation.
 
 ### Presentation Slides:
 |     Slide     |     Tableau Book    | Sheet/ Dashboard |   Excel Sheet   |
-| ------------- |:-------------------:| ----------------:|----------------:|
+| :-------------: |:-------------------:| :----------------:|:----------------:|
 |       3       |      Spend.twb      |    Dashboard 1   |   PO Amounts    |
 |       4       | Amounts_August_Nivi |    Totals        |   PO Amounts    |
 |       5       |    Platform_Data    |    Dashboard 1   | Platfrom_data2  | 
@@ -59,6 +59,9 @@ To help build the Monthly Report Presentation.
 |       7       |         N/A         |       N/A        | SB SS Data File |
 |       8       |  Amount_August_Nivi |    Dashboard 7   |   PO Amounts    |
 |  9,10,11,12   |       Slopegraph    |                  |Buyer Backlog (ask Scott) |
-|     13,14     |         N/A         |       N/A        |  Screenshot [Rubix] (http://rubikdata3.com/buyer-backlogs.html) 
+|     13,14     |         N/A         |       N/A        |  Screenshot  (http://rubikdata3.com/buyer-backlogs.html) |
+|     15,16     |         N/A         |    N/A  | Buyer Counts and Spending Sheet|
+
+
 
 
