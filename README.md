@@ -2,7 +2,7 @@
  
 June 28, 2019. 
 
-### Purpose
+## Purpose
 
 To help build the Monthly Report Presentation. 
 
@@ -67,7 +67,7 @@ For Non-Inventory -> Qor -> Columns H to P: Refer to the sheets 'QOR' and 'QOR T
 |     15,16     |         N/A         |    N/A  | Buyer Counts and Spending |
 
 
-* refer to Slopegraph.r
++ * refer to Slopegraph.r
 
 
 
