@@ -58,7 +58,7 @@ To help build the Monthly Report Presentation.
 |       6       |         N/A         |       N/A        |PO Amounts/Vendors Sheet|
 |       7       |         N/A         |       N/A        | SB SS Data File |
 |       8       |  Amount_August_Nivi |    Dashboard 7   |   PO Amounts    |
-|  9,10,11,12   |       Slopegraph    |                  |Buyer Backlog (ask Scott) |
+|  9,10,11,12   |     N/A     |                  |Buyer Backlog (ask Scott)* |
 |     13,14     |         N/A         |       N/A        |  Screenshot  (http://rubikdata3.com/buyer-backlogs.html) |
 |     15,16     |         N/A         |    N/A  | Buyer Counts and Spending Sheet|
 
