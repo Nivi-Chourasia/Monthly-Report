@@ -14,10 +14,10 @@ To help build the Monthly Report Presentation.
 
 
 ### Data Requirements (From the Script)
-PO Amounts
-Platform Data2
-SB SS Data
-Buyer Counts and Spending Sheet
++ PO Amounts
+- Platform Data2
++ SB SS Data
+- Buyer Counts and Spending Sheet
 
 
 ### Data Manipulation
