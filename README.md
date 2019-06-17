@@ -48,7 +48,7 @@ To help build the Monthly Report Presentation.
 
 #### Buyer Counts and Spending 
   ##### Sheet Name: Full Sheet
-  For Non-Inventory -> Qor -> Columns H to P: Refer to the sheets 'QOR' and 'QOR This Month'
+  For Non-Inventory -> QOR -> Columns H to P : Refer to the sheets 'QOR' and 'QOR This Month'
 
 
 
