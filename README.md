@@ -29,13 +29,13 @@ To help build the Monthly Report Presentation.
      
   | PO. No.  |  
 |:---:|
-|9000006897  | 
-|9000006795  | 
-|9000006794  | 
-|9000006763  |
+|9000006897| 
+|9000006795| 
+|9000006794 | 
+|9000006763|
 |4000091212  |
 |4000091025  |
-|4000091023  |
+|4000091023 |
 |4000091022  |
 |4000091495  |
 |4000091496  |
@@ -45,6 +45,10 @@ To help build the Monthly Report Presentation.
 ##### PO Amounts: (changing 'Bid Type')
 1. All MBTAI below 50K, From 'IFB' to 'Request for Quote' (except (2000108600/01)
 2. All unspecifed to 'Request for Quote' (except 2000107343,4000092098/214/215)
+
+##### Buyer Counts and Spending 
+###### Sheet Name: Full Sheet
+For Non-Inventory -> Qor -> Columns H to P: Refer to the sheets 'QOR' and 'QOR This Month'
 
 
 
@@ -58,10 +62,12 @@ To help build the Monthly Report Presentation.
 |       6       |         N/A         |       N/A        |PO Amounts/Vendors Sheet|
 |       7       |         N/A         |       N/A        | SB SS Data File |
 |       8       |  Amount_August_Nivi |    Dashboard 7   |   PO Amounts    |
-|  9,10,11,12   |     N/A     |                  |Buyer Backlog (ask Scott)* |
+|  9,10,11,12   |     N/A     |                  |Buyer Backlog (Silver Back)* |
 |     13,14     |         N/A         |       N/A        |  Screenshot  (http://rubikdata3.com/buyer-backlogs.html) |
-|     15,16     |         N/A         |    N/A  | Buyer Counts and Spending Sheet|
+|     15,16     |         N/A         |    N/A  | Buyer Counts and Spending |
 
+
+* refer to Slopegraph.r
 
 
 
