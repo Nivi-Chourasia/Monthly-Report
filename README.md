@@ -26,21 +26,8 @@ Platform Data2: (changing the method)
 2. EWELSH, JDELLALA, TDIONNE : Not Fedral + filter out SWC -> should be marked as Commbuys Market
 3. KLOVE, PHONG, TSULLIVAN1: all Sole Sources - OEM below 50K as a Fairmakit Quote.
 4. Convert these to Commbuys Market
-    | PO. No.   | 
-    | --------- | 
-    |9000006897 |
-    |9000006795 |
-    |9000006794 |
-    |9000006763 |
-    |4000091212 |
-    |4000091025 |
-    |4000091023 |
-    |4000091022 |
-    |4000091495 |
-    |4000091496 |
-    |4000091497 |
    
-   9000006897
+9000006897
 9000006795
 9000006794
 9000006763
@@ -52,6 +39,11 @@ Platform Data2: (changing the method)
 4000091496
 4000091497
   
+  |   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 
 
