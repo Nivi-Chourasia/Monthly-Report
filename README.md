@@ -55,6 +55,8 @@ Buyer Counts and Spending Sheet
 |       4       | Amounts_August_Nivi |    Totals        |   PO Amounts    |
 |       5       |    Platform_Data    |    Dashboard 1   | Platfrom_data2  | 
 |    6(Graph)   |    Threshold.twb    |    Dashboard 1   |   PO Amounts    |
-|       6       |                     |                  |PO Amounts/Vendors Sheet|
-|       7       |                     |                  | SB SS Data File |
+|       6       |         N/A         |        N/A       |PO Amounts/Vendors Sheet|
+|       7       |         N/A         |        N/A       | SB SS Data File |
+|       8       |  Amount_August_Nivi |    Dashboard 7   |   PO Amounts    |
+
 
