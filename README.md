@@ -7,10 +7,10 @@ June 28, 2019.
 To help build the Monthly Report Presentation. 
 
 ### Tableau Books Requirement
-...Amounts_August_Nivi.twb
-...Platform_Data.twb
-...Spend.twb
-Threshold.twb
++ Amounts_August_Nivi.twb
+- Platform_Data.twb
++ Spend.twb
+- Threshold.twb
 
 
 ### Data Requirements (From the Script)
