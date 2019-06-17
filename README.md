@@ -1,6 +1,6 @@
 # Monthly Report Presentation
  
-June 28, 2019. 
+June 17, 2019. 
 
 ## Purpose
 
@@ -47,8 +47,8 @@ To help build the Monthly Report Presentation.
 2. All unspecifed to 'Request for Quote' (except 2000107343,4000092098/214/215)
 
 #### Buyer Counts and Spending 
-  ##### Sheet Name: Full Sheet
-  For Non-Inventory -> QOR -> Columns H to P : Refer to the sheets 'QOR' and 'QOR This Month'
+##### Sheet Name: Full Sheet
+For Non-Inventory -> QOR -> Columns H to P : Refer to the sheets 'QOR' and 'QOR This Month'
 
 
 
