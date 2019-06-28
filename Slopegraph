@@ -1,0 +1,48 @@
+library(dplyr)
+library(readxl)
+library(openxlsx)
+library(CGPfunctions)
+
+## Loading the file
+Backlog_Sheet <- read_excel("Downloads/BACKLOG-05312019-151001.xlsx",skip = 1)
+
+# Defining Group
+Sourcing_Executives <- c("AFLYNN", "TDIONNE", "EWELSH", "RWEINER", "JMOYNIHAN", "KHALL","JDELALLA")
+Inventory_Buyers <- c("AKNOBEL", "DMARTINOS", "KLOVE", "PHONG", "TSULLIVAN1", "NSEQUEA", "DWELCH")
+Non_Inventory_Buyers <- c("CFRANCIS", "JKIDD", "JLEBBOSSIERE", "IATHERTON","JMIELE", "TTOUSSAINT")
+
+# Creating backlog sheets(By group)
+Count <- Backlog_Sheet %>% group_by(Buyer) %>% summarise(count=n())
+write.xlsx(x=as.data.frame(Count),file = "BLCount.xlsx", sheetName = "Overall", row.names = FALSE, append=FALSE)
+Backlog_Sheet <- Count %>% mutate("Buyer Type" = case_when(Count$Buyer %in% Sourcing_Executives ~ "Sourcing Executive",
+                                          Count$Buyer %in% Non_Inventory_Buyers ~ "Non-Inventory",
+                                          Count$Buyer %in% Inventory_Buyers ~ "Inventory"),"Month" = "Oct 18")
+
+## Excel by group
+Backlog_SE <- Backlog_Sheet %>% filter( Backlog_Sheet$`Buyer Type`  == "Sourcing Executive")
+Backlog_Non_Inv <- Backlog_Sheet %>% filter( Backlog_Sheet$`Buyer Type`  == "Non-Inventory")
+Backlog_Inv <- Backlog_Sheet %>% filter( Backlog_Sheet$`Buyer Type`  == "Inventory")
+
+## removing the column
+Backlog_SE <- Backlog_SE[,-3]
+Backlog_Non_Inv <- Backlog_Non_Inv[,-3]
+Backlog_Inv <- Backlog_Inv[,-3]
+
+
+
+write.xlsx(x=as.data.frame(Backlog_Inv),file = "Backlog_Inventory.xlsx")
+write.xlsx(x=as.data.frame(Backlog_Non_Inv),file = "Backlog_Non_Inventory.xlsx")
+write.xlsx(x=as.data.frame(Backlog_SE),file = "Backlog_SourcingExec.xlsx")
+   
+## Factoring the month
+Inventory$Month<- as.factor(Inventory$Month)
+Non_Inventory$Month<- as.factor(Non_Inventory$Month)
+Sourcing_Exec$Month<- as.factor(Sourcing_Exec$Month)
+
+## Creating the visualizations
+newggslopegraph(Inventory,Month,count,Buyer,Title = "Inventory Buyer Backlog Slopegraph", 
+                SubTitle = "Feb-May",LineThickness = 1,YTextSize = 2.5, DataTextSize = 2.5)
+newggslopegraph(Non_Inventory,Month,CountofBacklog,Buyer,Title = "Non-Inventory Buyer Backlog Slopegraph", 
+                SubTitle = "Feb-May",LineThickness = 1,YTextSize = 2.5, DataTextSize = 2.5)
+newggslopegraph(Sourcing_Exec,Month,CountofBacklog,Buyer,Title = "Sourcing Executive Buyer Backlog Slopegraph", 
+                SubTitle = "Feb-May",LineThickness = 1,YTextSize = 2.5, DataTextSize = 2.5)
